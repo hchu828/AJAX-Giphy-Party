@@ -1,0 +1,58 @@
+body {
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 5%,
+    transparent
+  );
+  background-repeat: no-repeat;
+}
+
+header {
+  font-size: 48px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#search-form {
+  padding: 10px;
+}
+
+#search-term-input {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+#submit {
+  background: #444;
+  border: 0;
+  box-shadow: inset #666 0px 1px 2px 0px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  color: white;
+}
+
+#remove {
+  background: rgb(216, 83, 1);
+  border: 0;
+  box-shadow: inset rgb(225, 105, 0) 0px 1px 2px 0px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  color: white;
+}
+
+#gif-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.funny-gif {
+  padding: 10px;
+}
